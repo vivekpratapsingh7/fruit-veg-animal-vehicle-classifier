@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile, File
-from predict import load_model, predict_image
+from app.predict import load_model, predict_image
 import io
 
 app = FastAPI()
